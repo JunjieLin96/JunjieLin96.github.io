@@ -1,3 +1,3 @@
 # 我的学术主页
 
-**My howepage:** http://zhouxiuze.com/
+**My howepage:** JunjieLin96.github.io
