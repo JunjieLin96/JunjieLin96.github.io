@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <link rel="stylesheet" href="jemdoc.css" type="text/css" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="bookmark" href="favicon.ico" type="image/x-icon" />
+  <title>Lin, Junjie (林俊杰)</title>
+  <style type="text/css">
+    /* 默认显示 Home 版块，隐藏 Research 和 CV 版块 */
+    #homeContent { display: block; }
+    #researchContent, #cvContent { display: none; }
+    
+    /* 定义当前菜单项的样式：文字颜色设为灰色 */
+    a.current {
+      color: gray;
+    }
+  </style>
+  <script type="text/javascript">
+    function showContent(contentId, menuItem) {
+      // 隐藏所有主要版块
+      document.getElementById("homeContent").style.display = "none";
+      document.getElementById("researchContent").style.display = "none";
+      document.getElementById("cvContent").style.display = "none";
+      // 显示选中的版块
+      document.getElementById(contentId).style.display = "block";
+      
+      // 清除所有菜单项的 current 类
+      var links = document.querySelectorAll('#layout-menu .menu-item a');
+      for (var i = 0; i < links.length; i++) {
+         links[i].classList.remove("current");
+      }
+      // 为当前点击的菜单项添加 current 类
+      menuItem.classList.add("current");
+    }
+  </script>
+</head>
+<body>
+  <table summary="Table for page layout." id="tlayout">
+    <tr valign="top">
+      <!-- 左侧菜单区 -->
+      <td id="layout-menu">
+        <div class="menu-category">Menu</div>
+        <!-- 点击 Home 后显示个人全部信息 -->
+        <div class="menu-item">
+          <a href="javascript:void(0);" onclick="showContent('homeContent', this);" class="current">Home</a>
+        </div>
+        <!-- 点击 Research 后只显示研究相关内容 -->
+        <div class="menu-item">
+          <a href="javascript:void(0);" onclick="showContent('researchContent', this);">Research</a>
+        </div>
+        <!-- 点击 CV 后只显示简历内容 -->
+        <div class="menu-item">
+          <a href="javascript:void(0);" onclick="showContent('cvContent', this);">CV</a>
+        </div>
+      </td>
+      
+      <!-- 右侧内容区 -->
+      <td id="layout-content">
+        <!-- Home版块：包含个人信息、教育、工作经历等 -->
+        <div id="homeContent">
+          <!-- 个人基本信息 -->
+          <div id="toptitle">
+            <h1>Lin, Junjie (林俊杰)</h1>
+          </div>
+          <table class="imgtable">
+            <tr>
+              <td>
+                <a href="https://JunjieLin96.github.io/">
+                  <img src="photos/bio.jpg" alt="alt text" width="131px" height="160px" />
+                </a>&nbsp;
+              </td>
+              <td align="left">
+                <p>
+                  <b>PhD Candidate, </b><br />
+                  Economics, <b>Sun Yat-sen University</b><br />
+                  Guangzhou, China<br /> 
+                  <b>Visiting PhD Research Student, </b><br />
+                  School of Social Sciences, <b>Nanyang Technological University</b><br />
+                  Singapore<br />
+                  E-mail: <a href="mailto:linjj78@mail2.sysu.edu.cn">linjj78@mail2.sysu.edu.cn</a>
+                </p>
+              </td>
+            </tr>
+          </table>
+          
+          <!-- 关于我、项目、教育、工作经历等个人信息 -->
+          <h2>About me</h2>
+          <p style="text-align: justify;">
+            I received the B.S. degree from the Zhejiang Gongshang University, in 2018, and the M.S. degree from Jinan University, in 2021.<br />
+            From 2021 to 2022, I served as an account manager at ZTE Corporation, China.<br />
+            I am pursuing a PhD at Sun Yat-sen University and currently visiting as a PhD Research Student at Nanyang Technological University, Singapore. I currently serve as an Academic Board Member of Global Open Share Publishing and a Youth Editorial Board Member of Asia Pacific Economic and Management Review.
+          </p>
+          <p style="text-align: justify;">
+            My research interests lie in Labor Economics, Educational Economics, and Transportation Economics. Within these fields, my research focuses on understanding the dynamics of human capital development, the factors influencing transportation safety, and vehicle externalities, with a particular emphasis on the impacts of policies and their real-world implications. Through my work, I aim to contribute valuable insights that inform both theory and practice in these critical areas. I welcome discussions and collaborations with those who share similar research interests.
+          </p>
+        </div>
+        
+        <!-- Research版块：只包含研究相关内容 -->
+        <div id="researchContent">
+          <h2>Research</h2>
+          <h3>Research interests</h3>
+          <ul>
+            <li><p>Labor Economics</p></li>
+            <li><p>Educational Economics</p></li>
+            <li><p>Transportation Economics</p></li>
+          </ul>
+          <h3>Publications</h3>
+          <ol>
+            <li><p>"Boarding Education and Children's Human Capital Development" with Chunchao Wang, Sheng Xu, Ling Zhang and Yunbin Zhang, <i>Journal of Economic Behavior and Organization</i>, 2025, 232: 106948</p></li>
+            <li><p>"Effects of Electric Vehicle Demonstration and Promotion Policy on Air Pollution: Evidence from China", <i>Transport Policy</i>, 2025, 162: 1-19</p></li>
+            <li><p>"The Local Driving Safety Effect of Motorcycle Restrictions: Evidence from China" with Guangnan Zhang, <i>Transport Policy</i>, 2024, 153: 222-236</p></li>
+            <li><p>"Parental Companionship and Children's Human Capital Development" with Chunchao Wang, <i>Educational Research</i>, 2021, 42(01): 104-128 [In Chinese]</p></li>
+            <li><p>"The Development of Rural Children's Cognitive and Non-cognitive Abilities: A Relational Study" with Chunchao Wang, <i>Wuhan University Journal (Philosophy & Social Sciences)</i>, 2021, 74(03): 143-158 [In Chinese]</p></li>
+          </ol>
+          <h3>Working papers</h3>
+          <ul>
+            <li><p>"Value Co-Creation or Value Co-Destruction? --A Study on Cross-border Collaborative Innovation of Enterprises Based on Social Network Perspectives" with Sipeng Gao and Jingxuan Yang</p></li>
+            <li><p>"The Risk Behaviors of Elderly Chinese Drivers: An Analysis of Violations and Collision Severity" with Guangnan Zhang, Changlan Peng and Sipeng Gao</p></li>
+            <li><p>"Risky Behavior Analysis for Tractor Drivers: Evidence from Tractor-related Crashes in China" with Guangnan Zhang and Baitong Li</p></li>
+            <li><p>"Car and Truck Drivers' Risk of Fault in Expressway Crashes and Severity of Consequent Injury in China" with Runkai Zhang and Guangnan Zhang</p></li>
+            <li><p>"Motorcycle Restrictions and Road Traffic Safety: Evidence from China" with Guangnan Zhang</p></li>
+            <li><p>"Analysis on Risky Factors and Severity of Casualties for Aggressive Driving: Evidence from Aggressive Driving Accidents in China" with Guangnan Zhang and Meng Wang</p></li>
+            <li><p>"Risk Factors of Traffic Violations and Severe Casualties in Rural Areas: A Perspective on Comparing Urban-Rural Disparities in China" with Guangnan Zhang and Baitong Li</p></li>
+            <li><p>"Farmer Risk Preferences: An Analysis of the Influencing Factors Based on Driver Fault Behavior and Crash Severity" with Baitong Li and Guangnan Zhang</p></li>
+            <li><p>"Risk Factors for Repeat Crashes: Evidence from China" with Guangnan Zhang and Runkai Zhang</p></li>
+          </ul>
+          <h3>Working in progress</h3>
+          <ul>
+            <li><p>"Once Bitten, Twice Shy: Early-life Famine Experience and Risky Behaviors on Roads" with Guangnan Zhang</p></li>
+            <li><p>"The New Road Killer: Stock Market and Car Crashes" with Guangnan Zhang</p></li>
+            <li><p>"Highway Toll and Traffic Accidents" with Guangnan Zhang and Changlan Peng</p></li>
+            <li><p>"Can Higher Penalties Reduce Road Crashes? Quasi-Experimental Evidence from Changes in the Driver Demerit Point System" with Guangnan Zhang and Runkai Zhang</p></li>
+            <li><p>"Risky Behavior Analysis for School Bus Drivers: Evidence from School-bus-related Crashes in China" with Guangnan Zhang, Sipeng Gao, Mingqin Chen and Qiaoting Zhong</p></li>
+          </ul>
+          <h3>Academic service</h3>
+          <p><b>Reviewer</b></p>
+          <ul>
+            <li><p>Transport Policy</p></li>
+            <li><p>Economic Analysis and Policy</p></li>
+            <li><p>Economic Modelling</p></li>
+            <li><p>Eco Cities</p></li>
+            <li><p>Bentham Science Publishers (Book Manuscript)</p></li>
+          </ul>
+            <p><b>Editorial board member</b></p>
+          <ul>
+            <li><p>Global Open Share Publishing</p></li>
+            <li><p>Asia Pacific Economic and Management Review</p></li>
+          </ul>
+        </div>
+        
+        <!-- CV版块：只包含简历链接 -->
+        <div id="cvContent">
+          <h2>CV</h2>
+          <p><a href="cv/cv.pdf">A brief CV</a></p>
+        </div>
+        
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
